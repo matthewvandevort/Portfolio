@@ -13,11 +13,11 @@ Description of project: This project was to make a Portfolio website to showcase
 
 # Screenshot
 
-<a target="_blank" rel="noreferrer" href="assets\images\Web capture_2-6-2021_153445_127.0.0.1.jpeg">
-    <img src="assets\images\Web capture_2-6-2021_153445_127.0.0.1.jpeg" alt="Screecshot">
+<a target="_blank" rel="noreferrer" href="assets\Sreenshot.jpeg">
+    <img src="assets\Sreenshot.jpeg" alt="Screecshot">
 </a>
 
-# Links
+# Linksgit
 
 <a href="https://matthewvandevort.github.io/Portfolio/">Link to Deployed Website</a>
 
