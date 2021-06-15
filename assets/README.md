@@ -19,7 +19,7 @@ Description of project: This project was to make a Portfolio website to showcase
 
 # Links
 
-<a href="https://https://matthewvandevort.github.io/Portfolio/">Link to Deployed Website</a>
+<a href="https://matthewvandevort.github.io/Portfolio/">Link to Deployed Website</a>
 
 # References Used
 <ul>
