@@ -1,3 +1,4 @@
+/* These are styles for tags */
 body {
     background-color: rgb(184, 184, 218);
 }
@@ -29,10 +30,9 @@ ul {
 }
 
 img {
-    padding-top: 34px;
     min-width: 200px;
 }
-
+/* These are styles for classes */
 .wrapper {
     width: 100%;
     max-width: 1920px;
@@ -46,8 +46,7 @@ img {
     padding-top: 10px;
 }
 
-.about-container {
-    height: 250px;
+.about-container, .work-container, .contact-container, .resume-container{
     display: flex;
     background: rgb(184, 184, 218);
     flex-wrap: wrap;
@@ -55,34 +54,7 @@ img {
     
 }
 
-.work-container {
-    height: 1150px;
-    display: flex;
-    background: rgb(184, 184, 218);
-    flex-wrap: wrap;
-    padding-top: 10px; 
-}
-
-.contact-container {
-    height: 200px;
-    display: flex;
-    background: rgb(184, 184, 218);
-    flex-wrap: wrap;
-    padding-top: 10px; 
-    
-}
-
-.resume-container {
-    height: 200px;
-    display: flex;
-    background: rgb(184, 184, 218);
-    flex-wrap: wrap;
-    padding-top: 10px; 
-    
-}
-
-.box {
-    height: 100px;
+.box {  
     min-width: 200px;
     flex-grow: 1;
 }
@@ -94,8 +66,6 @@ img {
 
 .about {
     width: 300px;
-    height: 100px;
-    min-width: 200px;
     max-width: 300px;
     flex-grow: 1;
     text-align: right;
@@ -103,7 +73,6 @@ img {
 
 .text {
     max-width: 1520px;
-    min-width: 200px;
 } 
 
 .big-image {
@@ -114,7 +83,7 @@ img {
     padding-top: 40px;
     text-align: center;
 }
-
+/* These are styles for ids */
 #style {
     height: 100px;
     border-right: 5px darkblue solid;
@@ -144,3 +113,26 @@ img {
 #info {
     flex-grow: 1;
 }
+/* media queries */
+@media screen and (max-width: 992px) {
+    .box, .one, .two, .about, .me, .text, {
+      flex: 0 0 100%;
+    }
+    #style, #work, #contact, #resume {
+        padding-bottom: 20px;
+        border-right: 5px darkblue solid; 
+        border-bottom:
+    }
+
+}
+
+  @media screen and (max-width: 768px) {
+    .box, .one, .two, .about, .me, .text, {
+      flex:0 0 50%;
+    }
+    #style, #work, #contact, #resume {
+        padding-bottom: 20px;
+        border-bottom: 5px darkblue solid;
+        border-right: none;
+    }
+  }
