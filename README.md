@@ -16,9 +16,7 @@ Description of project: This project was to make a Portfolio website to showcase
 
 # Screenshot
 
-<a target="_blank" rel="noreferrer" href="assets\Sreenshot.jpeg">
-    <img src="assets\Sreenshot.jpeg" alt="Screecshot">
-</a>
+![Portfolio](assets/MyPortfolio.gif)
 
 # Links to git
 
