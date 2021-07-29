@@ -4,11 +4,11 @@
 }
 /* These are styles for tags */
 body {
-    background-color: rgb(184, 184, 218);
+    background-color: rgb(94, 94, 102);
 }
 
 h1{
-    color: rgb(76, 83, 141);
+    color: rgb(151, 161, 135);
     font-size: 48px;
     font-weight: bolder;
 }
@@ -22,12 +22,19 @@ p {
 
 /* These are styles for classes */
 
+.nav-item {
+    font-weight: bolder;
+}
+.navbar {
+    background: linear-gradient(0.25turn, #aca6a6f5, rgb(151, 161, 135));
+}
 .navbar-brand {
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .jumbotron {
-    background-image: url(./hero.jpg);
+    background-image: url(./matt2.JPG);
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -35,7 +42,7 @@ p {
 
 .card {
     padding: 0;
-    background-color: rgb(184, 184, 218);
+    background-color: rgb(94, 94, 102);
     text-align: center;
     border: none;
 }
